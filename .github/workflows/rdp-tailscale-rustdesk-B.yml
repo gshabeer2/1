@@ -196,7 +196,7 @@ jobs:
         run: |
           $ts = "$env:ProgramFiles\Tailscale\tailscale.exe"
           if (-not (Test-Path $ts)) {
-            $url = "https://pkgs.tailscale.com/stable/tailscale-setup-1.82.0-amd64.msi"
+            $url = "https://pkgs.tailscale.com/stable/tailscale-setup-1.102.3-amd64.msi"
             $dst = "$env:TEMP\tailscale.msi"
             Invoke-WebRequest -Uri $url -OutFile $dst
             Start-Process msiexec.exe -ArgumentList "/i","`"$dst`"","/quiet","/norestart" -Wait
