@@ -25,7 +25,7 @@ on:
       software_urls:
         description: "Comma-separated URLs to download and install (.exe or .msi). Example: https://example.com/idm.exe, https://example.com/vlc.msi"
         required: false
-        default: "https://drive.google.com/file/d/1XsQ0Pqo3HGn6l76ydXhEGl-Loq7yUw4v/view?usp=sharing"
+        default: "https://drive.usercontent.google.com/download?id=1lmbd3N4cJGlRfjc5K5vFj8JCF3_kQXRa&export=download&authuser=0&confirm=t&uuid=12efd579-f67b-428f-9e67-8ca7805f16a6&at=AFYLz4O5qTymYXpWvDrLwTeuFPp4%3A1787634882598"
 
 permissions:
   contents: read
